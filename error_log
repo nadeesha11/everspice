@@ -1,0 +1,1 @@
+[27-Sep-2022 10:03:16 UTC] PHP Fatal error:  Declaration of Maatwebsite\Excel\Cache\MemoryCache::get($key, $default = null) must be compatible with Psr\SimpleCache\CacheInterface::get(string $key, mixed $default = null): mixed in /home/everspiceceylon/public_html/vendor/maatwebsite/excel/src/Cache/MemoryCache.php on line 62

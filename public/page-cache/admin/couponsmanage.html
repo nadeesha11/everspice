@@ -1,0 +1,1283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="_token" content="H0Jf1fjRKj6vx6f7U1uzOI71MDghJfBeV0wLzirZ"/>
+    
+ 
+    
+
+    <title>ecommerce</title>
+    
+  <!--<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>-->
+<script src="http://everspiceceylon.com/admin/vendor/jquery/jquery.min.js"></script>
+
+    <!-- Custom fonts for this template-->
+    <link href="http://everspiceceylon.com/admin/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link
+        href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+        rel="stylesheet">
+
+    <!-- Custom styles for this template-->
+    <link href="http://everspiceceylon.com/admin/css/sb-admin-2.min.css" rel="stylesheet">
+
+    
+
+
+
+<link rel="stylesheet" href="https://cdn.datatables.net/1.12.1/css/jquery.dataTables.min.css">
+<link rel="stylesheet" href="https://cdn.datatables.net/rowreorder/1.2.8/css/rowReorder.dataTables.min.css">
+<link rel="stylesheet" href="https://cdn.datatables.net/responsive/2.3.0/css/responsive.dataTables.min.css">
+
+      
+      
+   
+    
+
+
+    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Varela+Round">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+     
+
+    
+
+
+
+    
+
+
+
+     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.12.1/css/jquery.dataTables.css">
+     <style>
+         #example_wrapper{
+             background:rgba(255,255,255,0.7)!important;
+             padding:20px;
+             box-shadow:0 1rem 3rem rgba(0,0,0,.175)!important
+         }
+         #table_id_wrapper{
+             background:rgba(255,255,255,0.7)!important;
+             padding:20px;
+             box-shadow:0 1rem 3rem rgba(0,0,0,.175)!important
+         }
+         #table_id2_wrapper{
+             background:rgba(255,255,255,0.7)!important;
+             padding:20px;
+             box-shadow:0 1rem 3rem rgba(0,0,0,.175)!important
+         }
+         #table_id2_wrapper{
+             background:rgba(255,255,255,0.7)!important;
+             padding:20px;
+             box-shadow:0 1rem 3rem rgba(0,0,0,.175)!important
+         }
+         #orders_wrapper{
+             background:rgba(255,255,255,0.7)!important;
+             padding:20px;
+             box-shadow:0 1rem 3rem rgba(0,0,0,.175)!important
+         }
+         #example{
+             background:rgba(255,255,255,0.7)!important;
+             padding:20px;
+             box-shadow:0 1rem 3rem rgba(0,0,0,.175)!important
+         }
+         #view_product_wrapper{
+             background:rgba(255,255,255,0.7)!important;
+             padding:20px;
+             box-shadow:0 1rem 3rem rgba(0,0,0,.175)!important
+         }
+         #product_add{
+             background:rgba(255,255,255,0.7)!important;
+             padding-bottom:20px;
+             padding-top:5px;
+             margin-bottom:20px;
+             box-shadow:0 1rem 3rem rgba(0,0,0,.175)!important
+         }
+         #invoice{
+             
+             background:rgba(255,255,255,0.7)!important;
+             padding-bottom:20px;
+             padding-top:5px;
+             margin-bottom:20px;
+             box-shadow:0 1rem 3rem rgba(0,0,0,.175)!important
+             
+             
+             
+         }
+         
+           #failed_payment{
+             
+             background:rgba(255,255,255,0.7)!important;
+             padding-bottom:20px;
+             padding-top:5px;
+             margin-bottom:20px;
+             box-shadow:0 1rem 3rem rgba(0,0,0,.175)!important
+               padding-left:15px;
+             padding-right:15px;
+             
+             /*background:rgba(255,255,255,0.7)!important;*/
+             /*padding:20px;*/
+             /*box-shadow:0 1rem 3rem rgba(0,0,0,.175)!important*/
+             
+             
+             
+         }
+         
+         #filterd_orders_wrapper{
+             background:rgba(255,255,255,0.7)!important;
+             padding-bottom:20px;
+             padding-top:5px;
+             margin-bottom:20px;
+             box-shadow:0 1rem 3rem rgba(0,0,0,.175)!important 
+             
+          
+             
+         }
+         
+         #customer_names{
+           
+             background:rgba(255,255,255,0.7)!important;
+             padding-bottom:20px;
+             padding-top:5px;
+              padding-left:5px;
+             padding-right:5px;
+             margin-bottom:20px;
+             box-shadow:0 1rem 3rem rgba(0,0,0,.175)!important   
+             
+             
+         }
+         
+         #coupens_table_yajra{
+             
+              background:rgba(255,255,255,0.7)!important;
+             padding-bottom:20px;
+             padding-top:15px;
+              padding-left:15px;
+             padding-right:15px;
+             margin-bottom:20px;
+             box-shadow:0 1rem 3rem rgba(0,0,0,.175)!important     
+             
+         }
+         
+         
+         
+     </style>
+</head>
+
+
+ 
+
+<body id="page-top">
+
+    <!-- Page Wrapper -->
+    <div id="wrapper" style="background:#E4E7ED">
+
+        <!-- Sidebar -->
+        <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+
+            <!-- Sidebar - Brand -->
+
+
+            
+            <div class="text-center d-none d-md-inline" style="display: flex!important;align-items: baseline;">
+                <a class="sidebar-brand d-flex align-items-center justify-content-center" >
+                    <div class="sidebar-brand-icon">
+                        <img src="http://everspiceceylon.com/assets/imgs/theme/logo-everspicenew.png" alt="logo"  style="width: 70%;filter:brightness(0) invert(1)"/>
+                  
+                         
+                        
+                    </div>
+                    <!--<div class="sidebar-brand-text mx-3"> Everspice  </div>-->
+                </a>
+            
+                <button class="rounded-circle border-0" id="sidebarToggle"></button>
+            </div>
+
+            <!-- Divider -->
+            <hr class="sidebar-divider">
+            
+            
+              <!-- Dashboard -->
+            <li class="nav-item">
+                <a class="nav-link" href="http://everspiceceylon.com/admin/dashboard">
+                    <i class="fas fa-fw fa-chart-area"></i>
+                    <span>Dashboard</span></a>
+            </li>
+
+            <!-- Dashboard -->
+
+        
+
+            <!-- Nav Item - Pages Collapse Menu -->
+            <li class="nav-item">
+                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages"
+                    aria-expanded="true" aria-controls="collapsePages">
+                    <i class="fas fa-fw fa-folder"></i>
+                    <span>Products</span>
+                </a>
+                <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
+                    <div class=" py-2 collapse-inner rounded" style="font-size:18px">
+                        
+                        <a class="collapse-item" href="http://everspiceceylon.com/admin/producthome" style="align-items: center;display: flex;"><i class="fa fa-circle" aria-hidden="true"style="font-size:10px;"></i>&nbsp; Products</a>
+                        <a class="collapse-item" href="http://everspiceceylon.com/admin/product" style="align-items: center;display: flex;"><i class="fa fa-circle" aria-hidden="true" style="font-size:10px"></i>&nbsp; Add Products</a>
+                       
+                    </div>
+                </div>
+            </li>
+
+            <!-- Nav Item - Charts -->
+            <li class="nav-item">
+                <a class="nav-link" href="http://everspiceceylon.com/admin/category">
+                    <i class="fa fa-list-alt" aria-hidden="true"></i>
+                    <span>Categories</span></a>
+            </li>
+            
+
+            <!-- Nav Item - Tables -->
+            <!--<li class="nav-item">-->
+            <!--    <a class="nav-link" href=" url('/admin/country_shipping') ">-->
+            <!--        <i class="fas fa-fw fa-table"></i>-->
+            <!--        <span>Shipping</span></a> -->
+            <!--</li>-->
+            
+            
+            <!-- Nav Item - Tables -->
+
+               <!--<li class="nav-item">-->
+               <!-- <a class="nav-link" href="http://everspiceceylon.com/admin/reviews">-->
+               <!--     <i class="fas fa-fw fa-comments"></i>-->
+               <!--     <span>Reviews</span></a> -->
+               <!--</li>-->
+               
+                  
+                       <!-- Nav Item - Pages Collapse Menu -->
+            <li class="nav-item">
+                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePagesorder"
+                    aria-expanded="true" aria-controls="collapsePages">
+                    <i class="fa fa-shopping-cart"></i>
+                    <span>Orders</span>
+                </a>
+                <div id="collapsePagesorder" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
+                    <div class=" py-2 collapse-inner rounded" style="font-size:18px">
+                        
+                        <a class="collapse-item" href="http://everspiceceylon.com/admin/orders" style="align-items: center;display: flex;"><i class="fa fa-circle" aria-hidden="true"style="font-size:10px;"></i>&nbsp; Orders </a>
+                        <a class="collapse-item" href="http://everspiceceylon.com/admin/orders-inprogress" style="align-items: center;display: flex;"><i class="fa fa-circle" aria-hidden="true" style="font-size:10px"></i>&nbsp; Orders inprogress</a>
+                        <a class="collapse-item" href="http://everspiceceylon.com/admin/orders-shipped" style="align-items: center;display: flex;"><i class="fa fa-circle" aria-hidden="true" style="font-size:10px"></i>&nbsp; Orders Shipping</a>
+                        <a class="collapse-item" href="http://everspiceceylon.com/admin/orders-delivered" style="align-items: center;display: flex;"><i class="fa fa-circle" aria-hidden="true" style="font-size:10px"></i>&nbsp; Orders Delivered</a>
+                    </div>
+                </div>
+            </li>
+                   
+                  <li class="nav-item">
+                   <a class="nav-link" href="http://everspiceceylon.com/admin/customers">
+                    <i class="fa fa-users" aria-hidden="true"></i>
+                    <span>Customers</span></a> 
+                   </li>   
+                   
+            <li class="nav-item">
+                <a class="nav-link" href="http://everspiceceylon.com/admin/reviews">
+                    <i class="fas fa-fw fa-comments"></i>
+                    <span>Reviews</span></a> 
+            </li>
+            
+            
+            <!--<li class="nav-item">-->
+            <!--<a class="nav-link" href=" url('/admin/coupons') ">-->
+            <!--<i class="fas fa-fw fa-comments"></i>-->
+            <!--<i class="fa fa-gift"></i>-->
+            <!--<span>Coupons</span></a> -->
+            <!--</li>-->
+            
+            
+              
+            <li class="nav-item">
+            <a class="nav-link" href="http://everspiceceylon.com/admin/couponsmanage">
+            <!--<i class="fas fa-fw fa-comments"></i>-->
+            <i class="fa fa-gift"></i>
+            <span>manage coupon</span></a> 
+            </li>
+            
+            
+            
+            
+            
+            
+            
+            
+              <li class="nav-item">
+            <a class="nav-link" href="http://everspiceceylon.com/FailPayment">
+            <!--<i class="fas fa-fw fa-comments"></i>-->
+            <i class="fa fa-credit-card"></i>
+            <span>Failed Payment</span></a> 
+            </li>
+            
+            
+
+            <!-- Divider -->
+            <hr class="sidebar-divider d-none d-md-block">
+
+            <!-- Sidebar Toggler (Sidebar) -->
+
+
+          
+
+        </ul>
+        <!-- End of Sidebar -->
+
+        <!-- Content Wrapper -->
+        <div id="content-wrapper" class="d-flex flex-column">
+
+            <!-- Main Content -->
+            <div id="content" style="background:#E4E7ED; background-image: url(/public/about/background-image-copy-re.jpg) ; background-size: cover; ">
+
+                <!-- Topbar -->
+                <nav class="navbar navbar-expand navbar-light topbar mb-4 static-top shadow" style="background:#3F0010">
+
+                    <!-- Sidebar Toggle (Topbar) -->
+                    <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
+                        <i class="fa fa-bars"></i>
+                    </button>
+
+                    <!-- Topbar Search -->
+                 
+
+                    <!-- Topbar Navbar -->
+                    <ul class="navbar-nav ml-auto">
+
+                        <!-- Nav Item - Search Dropdown (Visible Only XS) -->
+                        <li class="nav-item dropdown no-arrow d-sm-none">
+                            <a class="nav-link dropdown-toggle" href="#" id="searchDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="fas fa-search fa-fw"></i>
+                            </a>
+                            <!-- Dropdown - Messages -->
+                            <div class="dropdown-menu dropdown-menu-right p-3 shadow animated--grow-in"
+                                aria-labelledby="searchDropdown">
+                                <form class="form-inline mr-auto w-100 navbar-search">
+                                    <div class="input-group">
+                                        <input type="text" class="form-control bg-light border-0 small"
+                                            placeholder="Search for..." aria-label="Search"
+                                            aria-describedby="basic-addon2">
+                                        <div class="input-group-append">
+                                            <button class="btn btn-primary" type="button">
+                                                <i class="fas fa-search fa-sm"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </li>
+
+                        <!-- Nav Item - Alerts -->
+                        
+
+                        <!-- Nav Item - Messages -->
+                      
+
+                        <div class="topbar-divider d-none d-sm-block"></div>
+
+                        <!-- Nav Item - User Information -->
+                        <li class="nav-item dropdown no-arrow">
+                            <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <!--<span class="mr-2 d-none d-lg-inline text-gray-600 small">Douglas McGee</span>-->
+                                <img class="img-profile rounded-circle"
+                                    src="img/undraw_profile.svg">
+                            </a>
+                            <!-- Dropdown - User Information -->
+                            <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in"
+                                aria-labelledby="userDropdown">
+                                
+                                
+                                
+                                
+                                <a class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal">
+                                    <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
+                                    Logout
+                                </a>
+                            </div>
+                        </li>
+
+                    </ul>
+
+                </nav>
+                <!-- End of Topbar -->
+
+                <!-- Begin Page Content -->
+                
+                <div class="container-fluid">
+
+    <!-- Page Heading -->
+    <div class="d-sm-flex align-items-center justify-content-between mb-4">
+        <!--<h1 class="h3 mb-0 text-gray-800">Dashboard</h1>-->
+       
+    </div>
+                
+
+
+   
+    </head>
+     <style>
+   .switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input {display:none;}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius:50px;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+  margin-bottom: 0px;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  border-radius:50px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+  margin-bottom: 0px;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+</style> 
+   
+    <body>
+        
+        <h1 class="text-center">Manage Coupons</h1>
+
+
+        <div class=" container-fluid">
+
+            <!--<a href="#" data-toggle="modal" class=" m-2 btn btn-success" id="create_promo_code">Add Promocode</a>-->
+            
+            
+            <div class="card p-5 m-5">
+                
+                <div class="card-header">
+                    
+                    Insert Coupons 
+                    
+                </div>
+                
+                <div class="card-body">
+                    
+                    <form  method="post" enctype="multipart/form-data" action="http://everspiceceylon.com/admin/importcsv">
+                        
+                      <input type="hidden" name="_token" value="H0Jf1fjRKj6vx6f7U1uzOI71MDghJfBeV0wLzirZ">                      
+                    <!--<div class="form-group">-->
+                    <!--  <label for="file">Choose Excel File </label>  -->
+                    <!--  <input type="file" name="file" class="form-control" > -->
+                    
+                        
+                        
+                    <!--</div>-->
+                    
+                     <div class="custom-file mb-3">
+                     <input type="file" name="file" class="custom-file-input" id="customFileLangHTML">
+                     <label class="custom-file-label" for="customFileLangHTML" data-browse="Browse">Choose your file with coupon codes</label>
+                       <span style="color: brown" >   </span>
+                       </div>
+                        
+                       <button type="submit" class="btn btn-primary" >Upload</button> 
+                        
+                    </form>
+                    
+                    
+                    
+                </div>
+                
+                
+            </div>
+            
+            
+            
+          
+        </div>
+
+       <div id="coupens_table_yajra">  
+        <table id="coupens_table" class="display">
+            <thead>
+            <tr>
+              <th>id</th>
+              <th>Product Id</th>
+              <th>Coupon Code</th>
+              <th>Coupon Limit</th>
+              <th>Coupon Discount (%) </th>
+              <th>Action</th>
+              <!--<th>Status</th>-->
+              <!--<th>Checkbox</th>-->
+            </tr>
+        </thead>
+          </table>
+          </div>
+          
+          
+       
+
+
+      
+      <script>
+           $(document).ready( function () {
+                //var url = window.location.href;
+    //var parts = window.location.href.split('/');
+    //var lastSegment = parts.pop() || parts.pop();  // handle potential trailing slash
+
+       // var sciid = lastSegment;
+
+       // $('#scid').val(sciid);
+   $('#coupens_table').DataTable({
+            processing:true,
+            serverSide:true,
+            responsive: true,
+            ajax:{
+                url:"http://everspiceceylon.com/admin/couponsmanage",
+                //data:{id:sciid},
+            },
+            columns:[
+            {
+                data:'id',
+                name:'id',
+            },
+            {
+                data:'Product_id',
+                name:'Product ID',
+            },
+            {
+                data:'coupon_code',
+                name:'coupon_code',
+            },
+            {
+              data:'coupon_limit',
+              name:'coupon_limit',
+            },
+            {
+              data:'coupon_discount',
+              name:'coupon_discount'
+            },
+            {
+                data:'action',
+                name:'action',
+                orderable:false
+            },
+            // {
+            //     data:'status',
+            //     name:'status',
+            //     orderable:false
+            // },
+            // {
+            //   "data":"checkbox",
+            //     orderable:false,
+            //     searchable:false
+            // }
+
+        ]
+
+        });
+    
+
+
+ 
+
+    $('#create_promo_code').click(function(){
+        $('#action_button').val("Add");
+        $('.modal-title').text("Add New Promo Code");
+        $('#action').val("Add");
+       $('#hidden_id').val(null);
+       $('#offer_name').val(null);
+      $('#coupon_code').val(null);
+      $('#coupon_limit').val(null);
+      $('#coupon_discount').val(null);
+      $('#product_id').val(null);
+      $('#item_per_cus').val(null);
+     //  $('#subjectid').val('').trigger('change');
+     //  $('#sltstype').val('').trigger('change');
+      $('#form_result').html(null);
+       console.log($('#action').val());
+        $('#CoupenModal').modal('show');
+    });
+
+  
+
+
+    
+ $('#addcoupon').on('submit',function(event) { 
+  
+      event.preventDefault();
+      if($('#action').val() == 'Add')
+  {
+            $.ajax({
+                url:"http://everspiceceylon.com/admin/couponsmanage/add",
+                method:"POST",
+                data: new FormData(this),
+                contentType:false,
+                cache:false,
+                processData:false,
+                dataType:"json",
+                beforeSend: function(){
+                        var html = '';
+                        html = '<div class="alert alert-info" id="data-alert"> Please Wait.. Coupen Data Saving... </div>';
+                        $('#form_result').html(html);
+                        // Show image container
+                        //  $("#loader").show();
+   },
+                success:function(data)
+                {
+                     var html = '';
+                       
+                    // console.log(html);
+                     console.log(data.error);
+                  /*   if(data.responseJSON.errors)
+                     {
+                        html = '<div class="alert alert-danger">';
+                         $.each(data.responseJSON.errors,function (k,v) {
+                         html += '<li>'+ v + '</li>';
+                     });
+                     }*/
+
+                     if(data.success){
+                         html = '<div class="alert alert-success" id="data-alert" >'
+                         +data.success + '</div>';
+                         $('#addcoupon')[0].reset();
+                         $('#coupens_table').DataTable().ajax.reload();
+                     }
+                     if(data.error){
+                         html = '<div class="alert alert-danger" id="data-alert">'
+                         +data.error + '</div>';
+                     }
+
+            
+                     $('#form_result').html(html);
+
+                $("#data-alert").fadeTo(2000, 500).slideUp(500, function(){
+                    $("#data-alert").slideUp(500);
+                });
+                },
+                error:function(data)
+                {
+                     var html = '';
+                     
+                     //console.log(html);
+                    console.log(data.responseJSON.errors);
+                     if(data.responseJSON.errors)
+                     {
+                         html = '<div class="alert alert-danger" id="data-alert" >';
+                         $.each(data.responseJSON.errors,function (k,v) {
+                         html += '<li>'+ v + '</li>';
+                         html +'</div>';
+                  });
+                        
+                     }
+
+                     if(data.responseJSON.success){
+                         html = '<div class="alert alert-success" id="data-alert">'
+                         +data.responseJSON.success + '</div>';
+                         $('#addcoupon')[0].reset();
+                         $('#coupens_table').DataTable().ajax.reload();
+                     }
+
+
+                     $('#form_result').html(html);
+
+                       $("#data-alert").fadeTo(2000, 500).slideUp(500, function(){
+    $("#data-alert").slideUp(500);
+
+});
+                },
+                complete:function(data){
+    
+  /* setTimeout(function(){
+        $("#GradeModal").modal('hide');
+    }, 1000);*/
+
+   }
+
+                
+
+            })
+
+     }
+     if($('#action').val() == "Edit")
+            {
+                $.ajax({
+                    url:"http://everspiceceylon.com/admin/couponsmanage/update",
+                    method:"POST",
+                    data: new FormData(this),
+                    contentType:false,
+                    cache:false,
+                    processData:false,
+                    dataType:"json",
+                    beforeSend: function(){
+                        var html = '';
+                        html = '<div class="alert alert-info">Please Wait.. Data Saving  </div>';
+                        $('#form_result').html(html);
+    // Show image container
+  //  $("#loader").show();
+   },
+                    success:function(data)
+                {
+                     var html = '';
+                    // console.log(html);
+                     console.log(data.success);
+                  /*   if(data.responseJSON.errors)
+                     {
+                        html = '<div class="alert alert-danger">';
+                         $.each(data.responseJSON.errors,function (k,v) {
+                         html += '<li>'+ v + '</li>';
+                     });
+                     }*/
+
+                     if(data.success){
+                         html = '<div class="alert alert-success">'
+                         +data.success + '</div>';
+                         $('#addcoupon')[0].reset();
+                         $('#coupens_table').DataTable().ajax.reload();
+                     }
+                     if(data.error){
+                         html = '<div class="alert alert-danger">'
+                         +data.error + '</div>';
+                    
+                     }
+                     $('#form_result').html(html);
+
+
+                },
+                error:function(data)
+                {
+                     var html = '';
+                     
+                     //console.log(html);
+                    console.log(data.responseJSON.errors);
+                     if(data.responseJSON.errors)
+                     {
+                         html = '<div class="alert alert-danger" id="data-alert">';
+                         $.each(data.responseJSON.errors,function (k,v) {
+                         html += '<li>'+ v + '</li>';
+                         html +'</div>';
+                  });
+                        
+                     }
+
+                     if(data.responseJSON.success){
+                         html = '<div class="alert alert-success" id="data-alert">'
+                         +data.responseJSON.success + '</div>';
+                         $('#addcoupen')[0].reset();
+                         $('#coupens_table').DataTable().ajax.reload();
+                     }
+
+            
+                     $('#form_result').html(html);
+                     $("#data-alert").fadeTo(2000, 500).slideUp(500, function(){
+    $("#data-alert").slideUp(500);
+});
+
+                },
+                complete:function(data){
+    // Hide image container
+   // $("#loader").hide();
+  // $('#store_image').hide();
+ //  $('#StreamModal').modal('show');
+   setTimeout(function(){
+        $("#CoupenModal").modal('hide');
+    }, 1000);
+   }
+              
+                    
+                })
+            }
+    });
+
+
+    $(document).on('click','.edit',function(){
+        var id = $(this).attr('id');
+        $('#form_result').html('');
+        $.ajax({
+            url:"/admin/couponsmanage/edit/"+id,
+            dataType:"json",
+            beforeSend: function(){
+                swal({
+                title: 'Please Wait !',
+                html: '<h3>Getting Coupen information from server </h3>',// add html attribute if you want or remove
+                allowOutsideClick: false,
+                onBeforeOpen: () => {
+                    showLoading()
+                },
+            });
+    // Show image container
+  //  $("#loader").show();
+   },
+ success:function(responseJSON){
+
+               
+        $('#offer_name').val(responseJSON.data[0].offer_name);
+        $('#coupon_code').val(responseJSON.data[0].coupon_code);
+        $('#coupon_limit').val(responseJSON.data[0].coupon_limit);
+        $('#coupon_discount').val(responseJSON.data[0].coupon_discount);
+        $('#item_per_cus').val(responseJSON.data[0].item_count_per_cus);
+        $('#product_id').val(responseJSON.data[0].Product_id);
+         $('#hidden_id').val(responseJSON.data[0].id);
+         console.log(responseJSON.data[0].id);
+                $('.modal-title').text("Edit Coupen"+responseJSON.data[0].offer_name);
+                $('#action_button').val("Edit");
+                $('#action').val("Edit");
+                $('#CoupenModal').modal('show');
+
+            },
+            complete:function(data){
+    // Hide image container
+   // $("#loader").hide();
+   swal.close();
+   }
+
+
+          
+        })
+    });
+
+    var grade_id;
+
+    $(document).on('click','.delete',function(){
+      grade_id = $(this).attr('id');
+      $('#confirmModal').modal('show');
+      $('#ok_button').text('Ok');
+      $('#ok_button').attr('disabled',false);
+      $('#form_result_new').html(null);
+
+    });
+
+    $('#ok_button').click(function(){
+        $.ajax({
+            url:"/admin/couponsmanage/delete/"+grade_id,
+            dataType:"json",
+            beforeSend:function(){
+                $('#ok_button').text('Deleting...');
+            },
+            success:function(data)
+            {
+                setTimeout(function(){
+                 $('#confirmModal').modal('show');
+                $('#coupens_table').DataTable().ajax.reload();
+                },300);
+
+
+                var html = '';
+                if(data.success){
+                         html = '<div class="alert alert-success">'
+                         +data.success + '</div>';
+                        // $('#add')[0].reset();
+                         $('#coupens_table').DataTable().ajax.reload();
+                         $('#ok_button').text('Deleted');
+                         $('#ok_button').attr('disabled',true);
+
+                     }
+                     if(data.error){
+                         html = '<div class="alert alert-danger">'
+                         +data.error + '</div>';
+                         $('#ok_button').text('Try again');
+                    
+                     }
+
+            
+                $('#form_result_new').html(html);
+
+              
+               
+            },
+            complete:function(data){
+    // Hide image container
+   // $("#loader").hide();
+   //$('#store_image').hide();
+ //  $('#StreamModal').modal('show');
+   setTimeout(function(){
+        $("#confirmModal").modal('hide');
+    }, 1000);
+   }
+            
+        })
+    });
+
+
+    $(document).on('click','#bulk_delete',function(){
+        var ids = [];
+ swal({
+    title: 'Are you sure?',
+    text: "You won't be able to revert this!",
+    type: 'warning',
+    showCancelButton: true,
+    confirmButtonColor: '#3085d6',
+    cancelButtonColor: '#d33',
+    confirmButtonText: 'Confirm!'
+}).then(function(){
+    $('.grades_checkbox:checked').each(function(){
+
+ids.push($(this).val());
+
+});
+
+if(ids.length>0)
+{
+console.log('ids selected',ids);
+$.ajax({
+ url:"",
+ method:"get",
+data:{ids:ids},
+beforeSend: function(){
+                swal({
+                title: 'Please Wait !',
+                html: 'Deleting Selected teachers form Server',// add html attribute if you want or remove
+                type:'info',
+                allowOutsideClick: false,
+                onBeforeOpen: () => {
+                    showLoading()
+                },
+            });
+    // Show image container
+  //  $("#loader").show();
+   },
+success:function(data)
+{
+  // alert(data);
+  swal("Good job!", "Selected Teachers deleted successfully!", "success")
+
+$('#coupens_table').DataTable().ajax.reload();
+
+}
+
+});
+}else{
+
+ swal("Ooops!", "Please Select one more checkboxes!", "error")
+ 
+}
+}).catch(function(reason){
+   // alert("The alert was dismissed by the user: "+reason);
+});
+
+
+ });
+
+  $(document).on('change','.status-switch',function(){
+    let is_active = $(this).prop('checked') === true ? 1 : 0;
+                let id = $(this).data('id');
+                console.log('id'+id);
+                $.ajaxSetup({
+    headers: {
+        'X-CSRF-TOKEN': $('meta[name="_token"]').attr('content')
+    }
+                      });
+                $.ajax({
+                    type: "POST",
+                    dataType: "json",
+                    url: "http://everspiceceylon.com/admin/couponsmanage/updatecoupenstate",
+                    data: {'is_active': is_active, 'id': id},
+                    success: function (data) {
+                       
+                        if(data.success){
+
+                         $('#coupens_table').DataTable().ajax.reload();
+                         swal("Good job!",data.success,"success");
+                         }
+
+                        toastr.options.closeButton = true;
+                        toastr.options.closeMethod = 'fadeOut';
+                        toastr.options.closeDuration = 100;
+                        toastr.success(data.responseJSON.success);
+                       
+                    }
+                });
+ });
+
+               
+               
+         
+    } );
+    
+
+
+ 
+
+</script>
+ 
+   
+
+
+
+
+    <!-- add category Modal HTML -->
+    <div id="CoupenModal" class="modal fade">
+        <div class="modal-dialog">
+
+ 
+            <div class="modal-content">
+                <form method="POST" id="addcoupon" enctype="multipart/form-data" >
+                    <input type="hidden" name="_token" value="H0Jf1fjRKj6vx6f7U1uzOI71MDghJfBeV0wLzirZ">                    
+                    <div class="modal-header">						
+                        <h4 class="modal-title">Add New Coupons</h4>
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                      </div>
+                    <div class="modal-body">
+                         <span id="form_result"></span>
+                         <div class="form-row">
+                             
+                         <div class="form-group col-md-6">
+                         <label for="offer_name">Offer Name</label>
+                         <input type="text" name="offer_name" class="form-control" id="offer_name" placeholder="Offer Name">
+                         </div>
+                         
+                       
+                          <div class="form-group col-md-6">
+                         <label for="coupon_code">coupon code</label>
+                         <input type="text" name="coupon_code" class="form-control" id="coupon_code" placeholder="coupon code">
+                          
+                         </div>
+                         
+                         </div>
+                          
+                          
+                          
+                         <div class="form-row">
+                        <div class="form-group col-md-6">
+                        <label for="coupon_limit">coupon limit </label>
+                        <input type="number" name="coupon_limit" class="form-control" id="coupon_limit" placeholder="coupon limit">
+                         </div>
+                          <div class="form-group col-md-6">
+                         <label for="coupon_discount">coupon discount</label>
+                         <input type="text"  name="coupon_discount" class="form-control" id="coupon_discount" placeholder="coupon discount">
+                          
+                         </div>
+                         
+                          </div>
+                          
+                           <div class="form-row">
+                        <div class="form-group col-md-6">
+                        <label for="product_id">Product ID </label>
+                        <input type="number" name="product_id" class="form-control" id="product_id" placeholder="Product ID">
+                         </div>
+                          <div class="form-group col-md-6">
+                         <label for="item_per_cus"> Valid items per customer </label>
+                         <input type="number"  name="item_count_per_cus" class="form-control" id="item_per_cus" placeholder="Valid items per customer">
+                           <input type="hidden" name="action" id="action" value="action"/>
+                           <input type="hidden" name="hidden_id" id="hidden_id" value="" />  
+                         </div>
+                         
+                          </div>
+                          
+                          
+                         <div class="form-row">
+                        <!--<div class="form-group col-md-6">-->
+                        <!--<label for="inputPassword4">status</label>-->
+                        <!--<input type="text" class="form-control" id="inputPassword4" placeholder="status">-->
+                        <!-- </div>-->
+                         
+                          </div>
+                        <!--<div class="form-group">-->
+                        <!--    <label>Category Name</label>-->
+                        <!--    <input type="text" name="Cat_name" class="form-control" required>-->
+                        <!--</div>-->
+                        
+                       
+                      					
+                    </div>
+                    <div class="modal-footer">
+                        <input type="button" class="btn btn-default" data-dismiss="modal" value="Cancel"> 
+                        <input type="submit" id="action_button"  class="btn btn-success" value="Add">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    
+    <!-- end add category Modal HTML -->
+
+
+    
+    
+    
+    
+<!--delete grade confirm modal-->
+<div class="modal fade" id="confirmModal">
+                                    <div class="modal-dialog modal-dialog-centered" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title"> Delete Coupen </h5>
+                                                <button type="button" class="close" data-dismiss="modal" ><span>&times;</span></button>
+                                            </div>
+                                            <div class="modal-body">
+                                            <span id="form_result_new"></span>
+                                            <h4  align="center" style="margin:0;">Are you sure want to remove this Coupen? </h4>
+                                               
+                                                 
+                                            </div>
+                                            <div class="modal-footer">
+                                            <button type="button" name="ok_button" id="ok_button" class="btn btn-danger">OK </button>
+                                            
+                                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                                               
+                                               
+                                            </div>
+                                             
+                                        </div>
+                                    </div>
+                                </div>
+<!--delete grade confirm modal ends -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </div>
+             
+                <!-- /.container-fluid -->
+
+            </div>
+            <!-- End of Main Content -->
+
+            <!-- Footer -->
+            <footer class="sticky-footer bg-white">
+                <div class="container my-auto">
+                    <div class="copyright text-center my-auto">
+                        <span>Copyright &copy; SATASME 2022</span>
+                    </div>
+                </div>
+            </footer>
+            <!-- End of Footer -->
+
+        </div>
+        <!-- End of Content Wrapper -->
+
+    </div>
+    <!-- End of Page Wrapper -->
+
+    <!-- Scroll to Top Button-->
+    <a class="scroll-to-top rounded" href="#page-top">
+        <i class="fas fa-angle-up"></i>
+    </a>
+
+    <!-- Logout Modal-->
+    <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">×</span>
+                    </button>
+                </div>
+                <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
+                <div class="modal-footer">
+                    <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+                    <a class="btn btn-primary" href="http://everspiceceylon.com/logout">Logout</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript-->
+    <script src="http://everspiceceylon.com/admin/vendor/jquery/jquery.min.js"></script>
+    <!-- Include a polyfill for ES6 Promises (optional) for IE11, UC Browser and Android browser support SweetAlert -->
+   <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/core-js/2.4.1/core.js"></script>-->
+
+    <script src="http://everspiceceylon.com/admin/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Core plugin JavaScript-->
+    <script src="http://everspiceceylon.com/admin/vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for all pages-->
+    <script src="http://everspiceceylon.com/admin/js/sb-admin-2.min.js"></script>
+
+    <!-- Page level plugins -->
+    <script src="http://everspiceceylon.com/admin/vendor/chart.js/Chart.min.js"></script>
+
+    <!-- Page level custom scripts -->
+    <script src="http://everspiceceylon.com/admin/js/demo/chart-area-demo.js"></script>
+    <script src="http://everspiceceylon.com/admin/js/demo/chart-pie-demo.js"></script>
+    <script  src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.js"></script>
+      <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+      
+      
+      
+    <!--<script src="cdn.datatables.net/plug-ins/1.12.1/filtering/row-based/range_dates.js" >  </script>  -->
+    
+    
+  
+   <!--<script   src="https://code.jquery.com/jquery-3.5.1.js"></script> -->
+   <!--<script   src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js"></script> -->
+   <!--<script   src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.2/moment.min.js"></script> -->
+   <!--<script   src="https://cdn.datatables.net/datetime/1.1.2/js/dataTables.dateTime.min.js"></script> -->
+  
+    
+    	
+<script> if (window.performance) { var navEntries = window.performance.getEntriesByType('navigation'); if (navEntries.length > 0 && navEntries[0].type === 'back_forward') { console.log('As per API lv2, this page is load from back/forward'); } else if (window.performance.navigation && window.performance.navigation.type == window.performance.navigation.TYPE_BACK_FORWARD) { console.log('As per API lv1, this page is load from back/forward'); } else { console.log('This is normal page load');  } } else { console.log("Unfortunately, your browser doesn't support this API"); } </script>
+
+
+<script>
+
+$(document).ready(function(){
+
+
+$('img').lazyload();
+
+
+});
+
+</script>
+
+
+<!--lazyload-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.lazyload/1.9.1/jquery.lazyload.min.js" integrity="sha512-jNDtFf7qgU0eH/+Z42FG4fw3w7DM/9zbgNPe3wfJlCylVDTT3IgKW5r92Vy9IHa6U50vyMz5gRByIu4YIXFtaQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>  
+    
+    
+
+   
+</body>
+
+</html>
